@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginBottom="4dp">
+
+        <LinearLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/Orange"
+                android:gravity="center"
+                android:id="@+id/date"
+                android:textColor="@android:color/black"
+                android:textSize="10sp"
+                android:text="@string/_12_nov_2019"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginStart="2dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:id="@+id/price"
+            android:paddingEnd="4dp"
+            android:text="@string/_650_0"
+            android:textColor="@color/black"
+            android:background="@color/Orange"
+            android:gravity="center"/>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginStart="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/Orange">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:text="Saimul Hoque"
+                    android:id="@+id/customer_name"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:textColor="@color/black"
+                    android:text="@string/chocolate_biscuit_chips_amp_juice"
+                    android:textSize="12sp"
+                    android:id="@+id/product"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</RelativeLayout>

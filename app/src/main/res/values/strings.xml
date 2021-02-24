@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Account Manager</string>
+    <string name="ic">icon</string>
+    <string name="verify">Verify</string>
+    <string name="submit">Submit</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="resend_code_in_10_second">Resend code in 10 second</string>
+    <string name="enter_your_otp_code_below">Enter your OTP Code below</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="we_have_sent_otp_on_your_number">We have sent OTP on your number</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_business_information">Enter Your Business Information</string>
+    <string name="your_name">Your Name</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="we_will_sent_you_a_otp_message">we will sent you a OTP message</string>
+    <string name="enter_your_phone_number">Enter Your Phone Number</string>
+    <string name="phone_number_verification">Phone Number Verification</string>
+    <string name="or">OR</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="balance_in_your_cash">Balance In Your Cash:</string>
+    <string name="_5_00_000">5,00,000</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="total_income">Total Income</string>
+    <string name="monthly_income">Monthly Income</string>
+    <string name="monthly_expanses">Monthly Expanses</string>
+    <string name="_1_00_000">1,00,000</string>
+    <string name="top_5_transactions">Top 5 Transactions</string>
+    <string name="nut_bolt">Nut Bolt</string>
+    <string name="from_cash_to_hardware">From Cash to Hardware</string>
+    <string name="_650_0">650.0</string>
+    <string name="_12_nov_2019">12 Nov 2019</string>
+    <string name="chocolate_biscuit_chips_amp_juice"><![CDATA[Chocolate, Biscuit, Chips & Juice]]></string>
+</resources>
